@@ -1,0 +1,27 @@
+name: Verificar archivos vacíos
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  verificar_archivos:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out el repositorio
+      uses: actions/checkout@v2
+
+    - name: Verificar si algún archivo está vacío
+      run: |
+        for archivo in $(find . -type f); do
+          if [ ! -s "$archivo" ]; then
+            echo "El archivo '$archivo' está vacío"
+            exit 1
+          fi
+        done
+        echo "Todos los archivos tienen contenido"
