@@ -1,5 +1,3 @@
 Archivo de introduccion incluido en nuestro proyecto
 Aqui se van a documentar la informacion adecuada
 para la susodicha introduccion.
-
-Commit desde /main
