@@ -11,7 +11,7 @@
 - [x] Conflicto resuelto
 - [x] Release publicada
 - [x] Milestones creados (avanzado)
-- [ ] GitHub Actions funcionando (avanzado PRO)
+- [x] GitHub Actions funcionando (avanzado PRO)
 
 i️ La documentación completa está en la Wiki:
 👉 [Entrega del laboratorio en la Wiki](https://github.com/ManuelGonzalezPriego/Laboratorio_Colaborativo_GitHub/wiki)
