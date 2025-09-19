@@ -1,2 +1,4 @@
 s
 Esta es la hitoria del tio que configura git
+
+Bug arreglado en la rama de Historia
